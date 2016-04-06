@@ -21,10 +21,14 @@
   1. 添加到缓存区 ``` git add <filename> ``` 或者 ``` git add * ```
   2. 使用如下命令以实际提交改动 ``` git commit -m "代码提交信息" ```
   3. 推送改动 ``` git push origin master ``` 可以把 master 换成想要推送的任何分支。
+
+  
 * 更新与合并
   * 要更新你的本地仓库至最新改动，执行：``` git pull ```
   * 合并其他分支到你的当前分支（例如 master），执行：``` git merge <branch> ```
   * 标记为合并成功：``` git add <filename> ```
+ 
+  
 * 标签
   * 可以执行如下命令以创建一个叫做 1.0.0 的标签：```git tag 1.0.0 1b2e1d63ff```
   * 使用如下命令获取提交 ID：```git log```
