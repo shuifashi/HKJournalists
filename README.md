@@ -17,6 +17,7 @@
   * 创建新文件夹，打开执行 ``` git init ``` 以创建新的仓库
 * 创建本地仓库的克隆版本 ``` git clone /path/to/repository ```
 
+
 * 添加与提交
   1. 添加到缓存区 ``` git add <filename> ``` 或者 ``` git add * ```
   2. 使用如下命令以实际提交改动 ``` git commit -m "代码提交信息" ```
